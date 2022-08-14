@@ -26,7 +26,7 @@ export default function Home({ allPostsData }) {
         <p>Welcome to my sample blog! :3 I'll surely post original content here someday...</p>
       </section>
     <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Recent Articles:</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
