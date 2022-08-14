@@ -20,7 +20,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>Autumn Breeze</title>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Welcome to my sample site! :3</p>
