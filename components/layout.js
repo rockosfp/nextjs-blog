@@ -4,7 +4,7 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Autumn';
+const name = 'Autumn Breeze';
 export const siteTitle = 'Autumn Breeze';
 
 export default function Layout({ children, home }) {
