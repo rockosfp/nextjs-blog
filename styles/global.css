@@ -6,7 +6,7 @@ body {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
-  color: white;
+  color: rgb(240, 240, 240);
   background-color: rgb(233, 158, 114);
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: #69acf8;
   text-decoration: none;
 }
 
@@ -26,4 +26,10 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+main {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(145, 90, 59, 0.959);
 }
